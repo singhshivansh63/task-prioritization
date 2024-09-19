@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.App-header h1 {
+  font-size: calc(10px + 2vmin);
+}
+
+main {
+  padding: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+h2, h3 {
+  color: #555;
+}
+
+.task {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+  border-left: 5px solid red; /* Default Priority: high */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task.low {
+  border-left-color: green;
+}
+
+.task.medium {
+  border-left-color: orange;
+}
+
+.task button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task button:hover {
+  background-color: darkred;
+}
+
+input, select {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
